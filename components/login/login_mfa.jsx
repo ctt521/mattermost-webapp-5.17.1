@@ -74,7 +74,7 @@ export default class LoginMfa extends React.PureComponent {
         }
 
         return (
-            <form onSubmit={this.handleSubmit}>
+             <form onSubmit={this.handleSubmit}>
                 <div className='signup__email-container'>
                     <p>
                         <FormattedMessage
