@@ -568,7 +568,9 @@ export default class Sidebar extends React.PureComponent {
                 style={{position: 'absolute'}}
             >
                 <div
-                    id='sidebarChannelContainer'
+                    // id='sidebarChannelContainer'
+                    id='sidebarChannelContainer_changed'
+
                     className='nav-pills__container'
                 >
                     {orderedChannelIds.map((sec) => {

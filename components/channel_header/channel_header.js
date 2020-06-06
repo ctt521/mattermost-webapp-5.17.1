@@ -480,8 +480,7 @@ export default class ChannelHeader extends React.PureComponent {
                             >
                                 <FormattedMessage
                                     id='channel_header.addChannelHeader'
-                                    // defaultMessage='Add a channel description'
-                                    defaultMessage='Add your own channel description '
+                                    defaultMessage='Add a channel description'
                                 />
                             </button>
                         </ChannelPermissionGate>
