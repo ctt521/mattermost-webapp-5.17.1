@@ -74,7 +74,7 @@ export default class LoginMfa extends React.PureComponent {
         }
 
         return (
-            <form onSubmit={this.handleSubmit}>
+             <form onSubmit={this.handleSubmit}>
                 <div className='signup__email-container'>
                     <p>
                         <FormattedMessage
@@ -86,7 +86,7 @@ export default class LoginMfa extends React.PureComponent {
                         {serverError}
                     </div>
                     <div className={'form-group' + errorClass}>
-                        {/* <LocalizedInput
+                        <LocalizedInput
                             type='text'
                             className='form-control'
                             name='token'
@@ -95,7 +95,7 @@ export default class LoginMfa extends React.PureComponent {
                             autoComplete='off'
                             autoFocus={true}
                             onChange={this.handleChange}
-                        /> */}
+                        />
                     </div>
                     <div className='form-group'>
                         <SaveButton
