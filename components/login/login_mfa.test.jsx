@@ -8,8 +8,7 @@ import LoginMfa from 'components/login/login_mfa.jsx';
 
 describe('components/login/LoginMfa', () => {
     const baseProps = {
-        // loginId: 'logid_id',
-        loginId: 'logid',
+        loginId: 'logid_id',
         password: 'password',
         submit: jest.fn(),
     };
