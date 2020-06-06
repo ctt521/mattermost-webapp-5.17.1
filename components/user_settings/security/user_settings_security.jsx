@@ -239,7 +239,8 @@ export default class SecurityTab extends React.PureComponent {
                         </label>
                         <div className='col-sm-7'>
                             <input
-                                id='currentPassword'
+                                // id='currentPassword'
+                                id='currentPassword_changed'
                                 autoFocus={true}
                                 className='form-control'
                                 type='password'
