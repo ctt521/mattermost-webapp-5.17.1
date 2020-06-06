@@ -239,8 +239,7 @@ export default class SecurityTab extends React.PureComponent {
                         </label>
                         <div className='col-sm-7'>
                             <input
-                                // id='currentPassword'
-                                id='currentPassword_changed'
+                                id='currentPassword'
                                 autoFocus={true}
                                 className='form-control'
                                 type='password'
@@ -259,7 +258,8 @@ export default class SecurityTab extends React.PureComponent {
                         <label className='col-sm-5 control-label'>
                             <FormattedMessage
                                 id='user.settings.security.newPassword'
-                                defaultMessage='New Password'
+                                // defaultMessage='New Password'
+                                defaultMessage='Brand new Password'
                             />
                         </label>
                         <div className='col-sm-7'>
