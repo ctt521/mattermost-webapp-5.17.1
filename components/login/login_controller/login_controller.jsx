@@ -576,20 +576,6 @@ class LoginController extends React.Component {
                                 spellCheck='false'
                             />
                         </div>
-                        <div className={'form-group' + errorClass}>
-                            <input
-                                id='loginEmail'
-                                className='form-control'
-                                ref='loginId'
-                                name='loginId'
-                                value={this.state.loginId}
-                                onChange={this.handleLoginIdChange}
-                                placeholder={this.createLoginPlaceholder()}
-                                spellCheck='false'
-                                autoCapitalize='off'
-                                autoFocus={true}
-                            />
-                        </div>
                         <div className='form-group'>
                             <button
                                 id='loginButton'

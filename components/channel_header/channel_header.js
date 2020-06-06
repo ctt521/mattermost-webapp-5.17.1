@@ -651,7 +651,8 @@ export default class ChannelHeader extends React.PureComponent {
                 <div className='flex-parent'>
                     <div className='flex-child'>
                         <div
-                            id='channelHeaderInfo'
+                            // id='channelHeaderInfo'
+                            id='channelHeaderInfo_changed'
                             className='channel-header__info'
                         >
                             <div
