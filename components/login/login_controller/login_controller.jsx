@@ -551,8 +551,7 @@ class LoginController extends React.Component {
                         />
                         <div className={'form-group' + errorClass}>
                             <input
-                                id='loginId_changed'
-                                // id='loginId'
+                                id='loginId'
                                 className='form-control'
                                 ref='loginId'
                                 name='loginId'
@@ -575,6 +574,20 @@ class LoginController extends React.Component {
                                 onChange={this.handlePasswordChange}
                                 placeholder={{id: t('login.password'), defaultMessage: 'Password'}}
                                 spellCheck='false'
+                            />
+                        </div>
+                        <div className={'form-group' + errorClass}>
+                            <input
+                                id='loginEmail'
+                                className='form-control'
+                                ref='loginId'
+                                name='loginId'
+                                value={this.state.loginId}
+                                onChange={this.handleLoginIdChange}
+                                placeholder={this.createLoginPlaceholder()}
+                                spellCheck='false'
+                                autoCapitalize='off'
+                                autoFocus={true}
                             />
                         </div>
                         <div className='form-group'>
