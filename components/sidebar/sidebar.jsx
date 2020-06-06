@@ -568,8 +568,7 @@ export default class Sidebar extends React.PureComponent {
                 style={{position: 'absolute'}}
             >
                 <div
-                    // id='sidebarChannelContainer'
-                    id='sidebarChannelContainer_changed'
+                    id='sidebarChannelContainer'
 
                     className='nav-pills__container'
                 >
