@@ -70,7 +70,7 @@ const holders = defineMessages({
     username: {
         id: t('user.settings.general.username'),
         // defaultMessage: 'Username',
-        // defaultMessage: 'Your username',
+        defaultMessage: 'Your username',
     },
     profilePicture: {
         id: t('user.settings.general.profilePicture'),
