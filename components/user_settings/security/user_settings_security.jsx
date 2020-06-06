@@ -258,8 +258,7 @@ export default class SecurityTab extends React.PureComponent {
                         <label className='col-sm-5 control-label'>
                             <FormattedMessage
                                 id='user.settings.security.newPassword'
-                                // defaultMessage='New Password'
-                                defaultMessage='Brand new Password'
+                                defaultMessage='New Password'
                             />
                         </label>
                         <div className='col-sm-7'>
