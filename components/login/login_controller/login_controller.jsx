@@ -551,7 +551,8 @@ class LoginController extends React.Component {
                         />
                         <div className={'form-group' + errorClass}>
                             <input
-                                id='loginId'
+                                id='loginId_changed'
+                                // id='loginId'
                                 className='form-control'
                                 ref='loginId'
                                 name='loginId'
