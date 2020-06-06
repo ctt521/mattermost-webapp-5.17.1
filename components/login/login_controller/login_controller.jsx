@@ -248,8 +248,7 @@ class LoginController extends React.Component {
                 serverError: (
                     <FormattedMessage
                         id='login.noPassword'
-                        // defaultMessage='Please enter your password'
-                        defaultMessage='Password empty, please enter : ))'
+                        defaultMessage='Please enter your password'
                         />
                 ),
             });
