@@ -569,6 +569,7 @@ export default class Sidebar extends React.PureComponent {
             >
                 <div
                     id='sidebarChannelContainer'
+
                     className='nav-pills__container'
                 >
                     {orderedChannelIds.map((sec) => {

@@ -249,7 +249,7 @@ class LoginController extends React.Component {
                     <FormattedMessage
                         id='login.noPassword'
                         defaultMessage='Please enter your password'
-                    />
+                        />
                 ),
             });
             return;
